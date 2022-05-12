@@ -1,4 +1,4 @@
-# Cleaning Matters!  Preprocessing-enhanced Anomaly Detection and Classification in Mobile Networks
+# Cleaning Matters! Preprocessing-enhanced Anomaly Detection and Classification in Mobile Networks
 
 [Juan Marcos Ramírez](https://juanmarcosramirez.github.io/), Pablo Rojo, Fernando Díez, [Vincenzo Mancuso](https://networks.imdea.org/team/imdea-networks-team/people/vincenzo-mancuso/), and [Antonio Fernández-Anta](https://networks.imdea.org/team/imdea-networks-team/people/antonio-fernandez-anta/)
 
