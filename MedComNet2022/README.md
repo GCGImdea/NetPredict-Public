@@ -1,10 +1,10 @@
 # Cleaning Matters!  Preprocessing-enhanced Anomaly Detection and Classification in Mobile Networks
 
-Cleaning Matters!  Preprocessing-enhanced Anomaly Detection and Classification in Mobile Networks
+[Juan Marcos Ramírez](https://juanmarcosramirez.github.io/), Pablo Rojo, Fernando Díez, [Vincenzo Mancuso](https://networks.imdea.org/team/imdea-networks-team/people/vincenzo-mancuso/), and [Antonio Fernández-Anta](https://networks.imdea.org/team/imdea-networks-team/people/antonio-fernandez-anta/)
 
-## Getting started
+## Abstract
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+Mobile communications providers often monitor key performance indicators (KPIs) with the goal of identifying anomalous operation scenarios that can affect the quality of Internet-based services. In this regard, anomaly detection and classification in mobile networks has become a challenging task due to the unknown distributions exhibited by the collected data and the lack of interpretability of the embedded (machine learning) models. This paper proposes an unsupervised end-to-end methodology based on both a data cleaning strategy and explainable machine learning models to detect and classify performance anomalies in mobile networks. The proposed approach, dubbed clean and explainable anomaly detection and classification (KLNX), aims at identifying attributes and operation scenarios that could induce anomalous KPI values without resorting to parameter tuning. Unlike previous methodologies, the proposed method includes a data cleaning stage that extracts and removes experiments and attributes considered outliers in order to train the anomaly detection engine with the cleanest possible dataset. Additionally, machine learning models provide interpretable information about features and boundaries describing both the normal network behavior and the anomalous scenarios. To evaluate the performance of the proposed method, a testbed generating synthetic data is developed using a known TCP throughput model. Finally, the methodology is assessed on a real data set captured by operational tests in commercial networks.
 
 Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
 
