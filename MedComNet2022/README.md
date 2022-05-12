@@ -1,6 +1,6 @@
-# klnx_deveplopment
+# Cleaning Matters!  Preprocessing-enhanced Anomaly Detection and Classification in Mobile Networks
 
-Clean and explainable (KLNX) anomaly detection for mobile networks
+Cleaning Matters!  Preprocessing-enhanced Anomaly Detection and Classification in Mobile Networks
 
 ## Getting started
 
