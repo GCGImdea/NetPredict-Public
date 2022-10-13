@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<actual.data.pkts.b2a &le; 2461.5<br/>gini = 0.680899<br/>samples = 1730<br/>value = [853, 137, 414, 117, 10, 1, 143, 55]<br/>class = Compliant>, fillcolor="#f6d5bd"] ;
+1 [label=<tcp.first.sec.volume.dl &le; 299533.0<br/>gini = 0.241531<br/>samples = 992<br/>value = [853, 137, 0, 0, 2, 0, 0, 0]<br/>class = Compliant>, fillcolor="#e99559"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<gini = 0.0<br/>samples = 137<br/>value = [0, 137, 0, 0, 0, 0, 0, 0]<br/>class = T1N;T2N;T3P>, fillcolor="#c8e539"] ;
+1 -> 2 ;
+3 [label=<ack.pkts.sent.a2b &le; 2011.0<br/>gini = 0.004667<br/>samples = 855<br/>value = [853, 0, 0, 0, 2, 0, 0, 0]<br/>class = Compliant>, fillcolor="#e58139"] ;
+1 -> 3 ;
+4 [label=<gini = 0.0<br/>samples = 850<br/>value = [850, 0, 0, 0, 0, 0, 0, 0]<br/>class = Compliant>, fillcolor="#e58139"] ;
+3 -> 4 ;
+5 [label=<gini = 0.48<br/>samples = 5<br/>value = [3, 0, 0, 0, 2, 0, 0, 0]<br/>class = Compliant>, fillcolor="#f6d5bd"] ;
+3 -> 5 ;
+6 [label=<ack.pkts.sent.a2b &le; 2146.0<br/>gini = 0.616953<br/>samples = 738<br/>value = [0, 0, 414, 117, 8, 1, 143, 55]<br/>class = T1N;T2P;T3N>, fillcolor="#abf3a5"] ;
+0 -> 6 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+7 [label=<tcp.first.sec.volume.dl &le; 299697.0<br/>gini = 0.343579<br/>samples = 531<br/>value = [0, 0, 414, 117, 0, 0, 0, 0]<br/>class = T1N;T2P;T3N>, fillcolor="#7bec71"] ;
+6 -> 7 ;
+8 [label=<gini = 0.0<br/>samples = 117<br/>value = [0, 0, 0, 117, 0, 0, 0, 0]<br/>class = T1N;T2P;T3P>, fillcolor="#39e5ac"] ;
+7 -> 8 ;
+9 [label=<gini = 0.0<br/>samples = 414<br/>value = [0, 0, 414, 0, 0, 0, 0, 0]<br/>class = T1N;T2P;T3N>, fillcolor="#47e539"] ;
+7 -> 9 ;
+10 [label=<tcp.first.sec.volume.dl &le; 280818.0<br/>gini = 0.450652<br/>samples = 207<br/>value = [0, 0, 0, 0, 8, 1, 143, 55]<br/>class = T1P;T2P;T3N>, fillcolor="#e88cf0"] ;
+6 -> 10 ;
+11 [label=<gini = 0.035077<br/>samples = 56<br/>value = [0, 0, 0, 0, 0, 1, 0, 55]<br/>class = T1P;T2P;T3P>, fillcolor="#e53d75"] ;
+10 -> 11 ;
+12 [label=<actual.data.pkts.b2a &le; 3902.5<br/>gini = 0.100346<br/>samples = 151<br/>value = [0, 0, 0, 0, 8, 0, 143, 0]<br/>class = T1P;T2P;T3N>, fillcolor="#d944e6"] ;
+10 -> 12 ;
+13 [label=<gini = 0.0<br/>samples = 143<br/>value = [0, 0, 0, 0, 0, 0, 143, 0]<br/>class = T1P;T2P;T3N>, fillcolor="#d739e5"] ;
+12 -> 13 ;
+14 [label=<gini = 0.0<br/>samples = 8<br/>value = [0, 0, 0, 0, 8, 0, 0, 0]<br/>class = T1P;T2N;T3N>, fillcolor="#399de5"] ;
+12 -> 14 ;
+}

@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<abs.rtt.timestep.2560ms &le; 0.323991<br/>gini = 0.236999<br/>samples = 3951<br/>value = [3430, 24, 39, 41, 20, 4, 17, 376]<br/>class = Compliant>, fillcolor="#e99356"] ;
+1 [label=<abs.rtt.volstep.240kb &le; 0.321673<br/>gini = 0.02733<br/>samples = 3478<br/>value = [3430, 24, 0, 0, 20, 4, 0, 0]<br/>class = Compliant>, fillcolor="#e5833c"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<abs.rtt.50, &le; 0.330726<br/>gini = 0.011527<br/>samples = 3450<br/>value = [3430, 0, 0, 0, 20, 0, 0, 0]<br/>class = Compliant>, fillcolor="#e5823a"] ;
+1 -> 2 ;
+3 [label=<gini = 0.0<br/>samples = 3430<br/>value = [3430, 0, 0, 0, 0, 0, 0, 0]<br/>class = Compliant>, fillcolor="#e58139"] ;
+2 -> 3 ;
+4 [label=<gini = 0.0<br/>samples = 20<br/>value = [0, 0, 0, 0, 20, 0, 0, 0]<br/>class = T1P;T2N;T3N>, fillcolor="#399de5"] ;
+2 -> 4 ;
+5 [label=<abs.rtt.75, &le; 0.384594<br/>gini = 0.244898<br/>samples = 28<br/>value = [0, 24, 0, 0, 0, 4, 0, 0]<br/>class = T1N;T2N;T3P>, fillcolor="#d1e95a"] ;
+1 -> 5 ;
+6 [label=<gini = 0.0<br/>samples = 23<br/>value = [0, 23, 0, 0, 0, 0, 0, 0]<br/>class = T1N;T2N;T3P>, fillcolor="#c8e539"] ;
+5 -> 6 ;
+7 [label=<gini = 0.32<br/>samples = 5<br/>value = [0, 1, 0, 0, 0, 4, 0, 0]<br/>class = T1P;T2N;T3P>, fillcolor="#806aec"] ;
+5 -> 7 ;
+8 [label=<abs.rtt.50, &le; 0.33169<br/>gini = 0.352489<br/>samples = 473<br/>value = [0, 0, 39, 41, 0, 0, 17, 376]<br/>class = T1P;T2P;T3P>, fillcolor="#eb6592"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<abs.rtt.volstep.240kb &le; 0.321977<br/>gini = 0.511812<br/>samples = 81<br/>value = [0, 0, 39, 41, 0, 0, 1, 0]<br/>class = T1N;T2P;T3P>, fillcolor="#f6fefb"] ;
+8 -> 9 ;
+10 [label=<gini = 0.04875<br/>samples = 40<br/>value = [0, 0, 39, 0, 0, 0, 1, 0]<br/>class = T1N;T2P;T3N>, fillcolor="#4ce63e"] ;
+9 -> 10 ;
+11 [label=<gini = 0.0<br/>samples = 41<br/>value = [0, 0, 0, 41, 0, 0, 0, 0]<br/>class = T1N;T2P;T3P>, fillcolor="#39e5ac"] ;
+9 -> 11 ;
+12 [label=<abs.rtt.volstep.240kb &le; 0.324072<br/>gini = 0.078301<br/>samples = 392<br/>value = [0, 0, 0, 0, 0, 0, 16, 376]<br/>class = T1P;T2P;T3P>, fillcolor="#e64178"] ;
+8 -> 12 ;
+13 [label=<gini = 0.0<br/>samples = 16<br/>value = [0, 0, 0, 0, 0, 0, 16, 0]<br/>class = T1P;T2P;T3N>, fillcolor="#d739e5"] ;
+12 -> 13 ;
+14 [label=<gini = 0.0<br/>samples = 376<br/>value = [0, 0, 0, 0, 0, 0, 0, 376]<br/>class = T1P;T2P;T3P>, fillcolor="#e53972"] ;
+12 -> 14 ;
+}
