@@ -39,4 +39,4 @@ October 03rd, 2022
 
 ### Acknowledgements
 
-The work was supported by the DiscoLedger project (PDC2021-121836-I00) funded by MCIN/AEI /10.13039/501100011033 and the European Union through the Next Generation EU/ PRTR program.
+This work has been partially supported by the Project AEON-CPS (TSI-063000-2021-38), funded by the Ministry of Economic Affairs and Digital Transformation and the European Union NextGeneration-EU in the framework of the Spanish Recovery, Transformation and Resilience Plan. This work has been also supported by the Project EDGEDATA-CM (S2018/TCS-4499), funded by the Department of Education and Research of the Regional Government of Madrid, through the 2018 R&D technology program for research groups, co-financed by the Operational Programs of the European Social Fund (ESF) and the European Regional Development Fund (ERDF). The work of Juan M. Ramirez has been supported by the Project ECID: Edge Computing for Intelligent Driving (PID2019-109805RB-I00) funded by the Spanish State Research Agency, Spanish Ministry of Science and Innovation. This paper has been supported by the projects Netpredict4 and Netpredict5 funded by Nokia Spain .
