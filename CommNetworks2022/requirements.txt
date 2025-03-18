@@ -1,0 +1,19 @@
+# Core Python and Jupyter dependencies
+jupyter
+notebook
+
+# Scientific computing and data manipulation
+numpy
+pandas
+scipy
+
+# Visualization libraries
+matplotlib
+seaborn
+graphviz
+
+# Machine learning frameworks (if needed)
+scikit-learn
+
+# Miscoding library
+nescience
