@@ -1,0 +1,17 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<abs.segmentsizes.50. &le; 1499.5<br/>gini = 0.073565<br/>samples = 1001<br/>value = [963, 1, 3, 1, 3, 30]<br/>class = Compliant>, fillcolor="#e68641"] ;
+1 [label=<max.segm.size.b2a &le; 38071.0<br/>gini = 0.5<br/>samples = 44<br/>value = [7.0, 1.0, 3.0, 0.0, 3.0, 30.0]<br/>class = T1P;T2P;T3P;T4P>, fillcolor="#ef84c2"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<abs.rwin.max &le; 24028160.0<br/>gini = 0.212803<br/>samples = 34<br/>value = [1, 0, 3, 0, 0, 30]<br/>class = T1P;T2P;T3P;T4P>, fillcolor="#e853aa"] ;
+1 -> 2 ;
+3 [label=<gini = 0.0<br/>samples = 30<br/>value = [0, 0, 0, 0, 0, 30]<br/>class = T1P;T2P;T3P;T4P>, fillcolor="#e5399d"] ;
+2 -> 3 ;
+4 [label=<gini = 0.375<br/>samples = 4<br/>value = [1, 0, 3, 0, 0, 0]<br/>class = T1N;T2P;T3P;T4N>, fillcolor="#7beeab"] ;
+2 -> 4 ;
+5 [label=<gini = 0.54<br/>samples = 10<br/>value = [6, 1, 0, 0, 3, 0]<br/>class = Compliant>, fillcolor="#f4c9aa"] ;
+1 -> 5 ;
+6 [label=<gini = 0.002088<br/>samples = 957<br/>value = [956, 0, 0, 1, 0, 0]<br/>class = Compliant>, fillcolor="#e58139"] ;
+0 -> 6 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
