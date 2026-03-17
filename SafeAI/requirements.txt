@@ -1,0 +1,17 @@
+# Scientific computing and data manipulation
+numpy
+pandas
+
+# Visualization
+matplotlib
+seaborn
+graphviz
+
+# Machine learning
+scikit-learn
+lightgbm
+xgboost
+shap
+
+# Outlier / anomaly detection
+pyod
